@@ -1,0 +1,17 @@
+img{
+    height: 400px;
+    width: 400px;
+    animation-duration: .2s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anim
+{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}

@@ -1,0 +1,63 @@
+*
+{
+    margin-top:0%;
+    border: none;
+    padding: 0%;
+    padding-right: 10px;
+}
+.parent{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(244, 245, 246);
+    width: 100%;
+    
+}
+input{
+    padding-top: 0%;
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+select{
+    width: 200px;
+    background-color: inherit;
+}
+.logo>img{
+    width: 15px;
+    height: 15px;
+    padding-right: 20px;
+}
+div{
+    padding-right: 20px;
+}
+
+.input>img{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+}
+input::placeholder{
+    padding-left: 40px;
+}
+
+.but1>img{
+    height: 20px;
+    width: 20px;
+}
+
+.but1>img{
+   
+    left: -20px;
+    top: 30px;
+    position: relative;
+    padding-left: 20px;
+    
+}
+.but1{
+    height: 100px;
+    width: 50px;
+}
